@@ -1,8 +1,0 @@
-(("Justo", "Wilfredo"), ("Justo", "Martha")
-,("Isabel_V", "Wilfredo"), ("Isabel_V", "Martha")
-,("Dionicio", "Victoria")
-,("Victoria_A", "Victoria")
-,("Hugo", "Eliana"), ("Hugo", "Victor")
-,("Martha", "Eliana"), ("Martha", "Victor")
-,("Wilfredo", "Rodrigo"), ("Wilfredo", "Isabel")
-,("Victoria", "Rodrigo"), ("Victoria", "Isabel"))
