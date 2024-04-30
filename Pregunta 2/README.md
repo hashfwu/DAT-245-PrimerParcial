@@ -38,22 +38,22 @@ Asi pues, en nuestro caso no podemos usar algoritmos de *regresión lineal* ya q
 
 >[Srivastava, S. (2014). Weka: a tool for data preprocessing, classification, ensemble, clustering and association rule mining. International Journal of Computer Applications, 88(10).](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=9f3837436a8942630c0d56850f5475cef655318a)<p>
 
-Asi pues, lo primero que haremos es filtrar los datos pedidos o corruptos. Para eso no vamos a `choose` y elegimos de entre los algorimos de *aprendizaje no supervisado*<p>
+Asi pues, lo primero que haremos es filtrar los datos pedidos o corruptos. Para eso no vamos a `choose` y elegimos de entre los algoritmos de *aprendizaje no supervisado*<p>
 ![](images/image-5.png)<p>
 Escogeremos `NumericCleaner`<p>
 ![alt text](images/image-6.png)<p>
-Selecionamos todos menos el modelo:<p>
+Seleccionamos todos menos el modelo:<p>
 ![alt text](images/image-7.png)<p>
-Dejaremos los atributos tal como estan:<p>
+Dejaremos los atributos tal como están:<p>
 ![alt text](images/image-8.png)<p>
 Y aplicamos. Vemos que en algunos atributos aún hay datos perdidos:<p>
 ![alt text](images/image-9.png)<p>
 Asi que ahora lo que haremos será **eliminar los datos perdidos**.<p>
-Para ello nos vamos de nuevo a escojer un filtro dentro de `unsupervised\instance` y escojermos `RemoveWithValues`<p>
+Para ello nos vamos de nuevo a escoger un filtro dentro de `unsupervised\instance` y escogermos `RemoveWithValues`<p>
 ![alt text](images/image-11.png)<p>
 Aplicamos<p>
 Ahora remplazamos los datos perdidos (*missing*) con `ReplaceMissingValues` que se encuentra en `unsupervised\atributes`.
-Y ahora si todos **vacios** fueron eliminados.<p>
+Y ahora si todos **vacíos** fueron eliminados.<p>
 ![alt text](images/image-12.png)<p>
 
 Hasta ahora hemos usado 3 algoritmos para limpiar el *dataset*.
