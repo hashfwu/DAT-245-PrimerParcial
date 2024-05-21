@@ -90,3 +90,10 @@ El video de la prueba se encuentra [aqui](https://youtu.be/E66Pf02NqJw)
 Su mejor resultado fue:
 
 ![alt text](images/Screenshot%20(200).png)
+
+**Fuentes**:
+- [Knight's tour, Wikipedia](https://en.wikipedia.org/wiki/Knight%27s_tour)
+- [Knight’s Tour using Genetic Algorithm](https://rayantonius.com/tech/knight-tour-p5/)
+- [Getting started with VBA in Office](https://learn.microsoft.com/en-us/office/vba/library-reference/concepts/getting-started-with-vba-in-office)
+- [Normalización, IBM](https://www.ibm.com/docs/es/spss-statistics/saas?topic=analysis-normalization)
+- [DP: distribución ponderada](https://pospotential.com/glosario-de-business-intelligence-y-gran-consumo/distribucion-ponderada/)
